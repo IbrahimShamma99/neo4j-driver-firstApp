@@ -6,6 +6,10 @@
     "email": "info@tsl.io",
     "url": "tsl.io"
   },
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
   "description": "API for a movie demo app using Neo4j",
   "repository": {
     "type": "git",
