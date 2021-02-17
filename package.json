@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/IbrahimShamma99/neo4j-driver-firstApp/issues"
   },
-  "homepage": "https://github.com/IbrahimShamma99/neo4j-driver-firstApp#readme"
+  "homepage": "https://github.com/IbrahimShamma99/neo4j-driver-firstApp#readme",
+  "dependencies": {
+    "neo4j-driver": "^4.2.2"
+  }
 }
