@@ -22,7 +22,7 @@ const store = createStore(
 		routerMiddleware(history),
 		thunkMiddleware,
 		sagaMiddleware,
-		reduxLoggerMiddleware,
+		//reduxLoggerMiddleware,
 	),
 )
 

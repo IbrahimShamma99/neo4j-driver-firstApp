@@ -17,6 +17,7 @@ class Home extends React.Component {
   }
 
   componentWillMount() {
+    console.log("updates",this.props)
     this.props.getFeaturedMovies();
     this.props.getMoviesByGenres(['Adventure', 'Drama']);
   }
