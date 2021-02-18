@@ -24,7 +24,7 @@ var swaggerDefinition = {
     version: "1.0.0",
     description: "",
   },
-  host: "localhost:3001",
+  host: "localhost:5000",
   basePath: "/",
 };
 
@@ -46,7 +46,7 @@ var swaggerSpec = swaggerJSDoc(options);
 // });
 
 app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
-app.set("port", nconf.get("PORT"));
+app.set("port", 5000); //nconf.get("PORT")
 
 api.use(bodyParser.json());
 api.use(methodOverride());
